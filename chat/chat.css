@@ -1,0 +1,402 @@
+body {
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+}
+
+body .main {
+  font-size: 0.9rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+body .main .main-section-background {
+  background-color: #f5f3f7;
+  position: fixed;
+  z-index: -5;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+body .main .main-section-background .main-section-background-deep {
+  background-color: #9241c8;
+  width: 90%;
+  height: 75%;
+  position: absolute;
+  border-radius: 0 0 180px 160px;
+  left: -200;
+}
+
+body .main .main-section-background .main-section-background-light {
+  background: #ebedef;
+  width: 90%;
+  height: 45%;
+  position: absolute;
+  border-radius: 180px 160px 0 0;
+  right: -200;
+  bottom: 0;
+}
+
+body .main .main-section-1 {
+  margin-top: 3rem;
+}
+
+body .main .main-section-1 .main-section-phone {
+  height: 27rem;
+  width: 14rem;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 30px;
+  padding: 0.4rem;
+  -webkit-box-shadow: 3px 7px 30px #a39daa;
+          box-shadow: 3px 7px 30px #a39daa;
+}
+
+body .main .main-section-1 .main-section-phone-body {
+  background-color: white;
+  border-radius: 24px;
+  height: 26.8rem;
+  width: 13.8rem;
+}
+
+body .main .main-section-1 .main-section-phone-body-header {
+  width: 100%;
+  height: 8%;
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(40%, #9241c8), to(#e942ff));
+  background-image: linear-gradient(to right, #9241c8 40%, #e942ff);
+  border-radius: 24px 24px 5px 5px;
+  padding: 1.5rem 0 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  z-index: 10;
+}
+
+body .main .main-section-1 .main-section-phone-body-header .header-sign {
+  width: 8%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .main .main-section-1 .main-section-phone-body-header .header-sign p {
+  font-size: 0.8rem;
+  color: white;
+  font-weight: 500;
+}
+
+body .main .main-section-1 .main-section-phone-body-header .header-rectangle {
+  position: absolute;
+  width: 50%;
+  height: 1.7rem;
+  background-color: white;
+  border-radius: 0 0 50px 50px;
+  top: -8;
+  left: 50;
+  border-radius: 50px;
+}
+
+body .main .main-section-1 .main-section-phone-body-header .header-text {
+  width: 60%;
+}
+
+body .main .main-section-1 .main-section-phone-body-header .header-text h2 {
+  margin: 0;
+  font-size: 0.8rem;
+  color: white;
+}
+
+body .main .main-section-1 .main-section-phone-body-header .header-text p {
+  font-size: 0.5rem;
+  margin: 0.2rem 0 0 0;
+  color: white;
+}
+
+body .main .main-section-1 .main-section-phone-body-header .header-image {
+  border: 1px solid white;
+  border-radius: 50%;
+  width: 9%;
+  height: 55%;
+  margin-right: 0.5rem;
+  background-image: url(../avatar.jpg);
+  background-position: center;
+  background-size: contain;
+}
+
+body .main .main-section-1 .main-section-phone-body-header .header-image img {
+  height: 19px;
+  width: 19px;
+  border-radius: 50%;
+}
+
+body .main .main-section-1 .main-section-phone-body-header .header-button {
+  width: 10%;
+}
+
+body .main .main-section-1 .main-section-phone-body-header .header-button .span {
+  height: 2px;
+  width: 2px;
+  background-color: white;
+  margin: 0.2rem 0;
+  border-radius: 50%;
+  margin-left: 2rem;
+}
+
+body .main .main-section-1 .main-section-phone-body-body {
+  background-color: #f5f3f7;
+  height: calc(100% - 9% - 1.5rem);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  border-radius: 0 0 24px 24px;
+  padding: 0.5rem 0.5rem 0.2rem 0.5rem;
+  position: relative;
+  top: -5;
+}
+
+body .main .main-section-1 .main-section-phone-body-body p {
+  margin: 0;
+  font-size: 0.5rem;
+  color: #9241c8;
+}
+
+body .main .main-section-1 .main-section-phone-body-body .body-dark {
+  background-color: #cdd1d5;
+  width: 60%;
+  padding: 0.4rem;
+  border-radius: 12px 12px 12px 4px;
+}
+
+body .main .main-section-1 .main-section-phone-body-body .body-image {
+  -ms-flex-item-align: end;
+      align-self: end;
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+body .main .main-section-1 .main-section-phone-body-body .body-image img {
+  height: 3rem;
+  width: 3rem;
+  border-radius: 10px;
+  margin-right: 0.3rem;
+}
+
+body .main .main-section-1 .main-section-phone-body-body .body-light {
+  background-color: white;
+  width: 60%;
+  padding: 0.4rem;
+  border-radius: 12px 12px 4px 12px;
+  -ms-flex-item-align: end;
+      -ms-grid-row-align: end;
+      align-self: end;
+}
+
+body .main .main-section-1 .main-section-phone-body-body .body-light p {
+  color: #3e2753;
+}
+
+body .main .main-section-1 .main-section-phone-body-body .body-colored {
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(5%, #e942ff), color-stop(#9241c8), to(#8838ff));
+  background-image: linear-gradient(to right, #e942ff 5%, #9241c8, #8838ff);
+  width: 70%;
+  padding: 0.4rem;
+  border-radius: 12px 12px 12px 4px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .main .main-section-1 .main-section-phone-body-body .body-colored p {
+  color: #cdd1d5;
+}
+
+body .main .main-section-1 .main-section-phone-body-body .body-colored #money {
+  font-size: 0.7rem;
+  margin-left: 2rem;
+  color: white;
+}
+
+body .main .main-section-1 .main-section-phone-body-body .body-colored div {
+  margin-right: 0.5rem;
+  width: 10%;
+  height: 100%;
+  border-radius: 50%;
+  border: 0.2px solid white;
+}
+
+body .main .main-section-1 .main-section-phone-body-body .body-bottom {
+  background-color: white;
+  width: 90%;
+  padding: 0.1rem 0.2rem 0.1rem 1rem;
+  border-radius: 18px;
+  -ms-flex-item-align: center;
+      align-self: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .main .main-section-1 .main-section-phone-body-body .body-bottom p {
+  color: #cdd1d5;
+}
+
+body .main .main-section-1 .main-section-phone-body-body .body-bottom div {
+  background-color: #3e2753;
+  border-radius: 50%;
+  border: 0;
+  width: 15%;
+  height: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .main .main-section-1 .main-section-phone-body-body .body-bottom div p {
+  font-size: 1.2rem;
+  color: #f5f3f7;
+  font-weight: bolder;
+}
+
+body .main .main-section-2 a {
+  text-decoration: none;
+  color: #3e2753;
+}
+
+body .main .main-section-2 .main-section-text {
+  text-align: center;
+  width: 80%;
+  margin: auto;
+}
+
+body .main .main-section-2 .main-section-text h1 {
+  color: #3e2753;
+  font-size: 2.2rem;
+}
+
+body .main .main-section-2 .main-section-text p {
+  color: #3e2753;
+  font-size: 0.8rem;
+}
+
+@media (min-width: 26.5rem) {
+  body .main .main-section-background .main-section-background-deep {
+    left: -250;
+  }
+  body .main .main-section-background .main-section-background-light {
+    right: -250;
+  }
+}
+
+@media (min-width: 29rem) {
+  body .main .main-section-background .main-section-background-deep {
+    left: -270;
+    border-radius: 0 0 250px 220px;
+  }
+  body .main .main-section-background .main-section-background-light {
+    right: -270;
+    border-radius: 250px 220px 0 0;
+  }
+  body .main .main-section-2 .main-section-text {
+    width: 80%;
+  }
+}
+
+@media (min-width: 40rem) {
+  body .main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .main .main-section-background .main-section-background-deep {
+    width: 35%;
+    height: 90%;
+    left: -80;
+    border-radius: 0 0  390px 280px;
+  }
+  body .main .main-section-background .main-section-background-light {
+    width: 35%;
+    height: 85%;
+    right: -120;
+    border-radius: 300px 280px 0 0;
+  }
+  body .main .main-section-1 {
+    padding-left: 20%;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    width: 50%;
+  }
+  body .main .main-section-2 {
+    width: 55%;
+  }
+  body .main .main-section-2 .main-section-text, body .main .main-section-2 .attribution {
+    width: 70%;
+    margin: 0 5rem 0 3rem;
+    text-align: left;
+  }
+}
